@@ -1,0 +1,90 @@
+html, body{
+	margin: 0px;
+	background: linear-gradient(to right, #E5ACB6, #6F8B8A); 
+}
+.main{
+	width: 100%;
+	height: 100%;
+}
+.header{
+	width: 100%;
+	height: 80px;
+	background: rgba(255,204,213,.999);
+}
+.logo{
+	position: absolute;
+	width: 100px;
+	height: 80px;
+	margin-left: 50px;
+}
+.logo:hover{
+	opacity: 0.5;
+}
+b{
+	float: left;
+	margin-left: 20px;
+	padding-top: 15px;
+	color: black;
+}
+b:hover{
+	color: white;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+}
+.home{
+	padding-left: 190px;
+	padding-top: 15px;
+}
+.chord{
+	width: 1200px;
+	height: 600px;
+	margin: 50px;
+	overflow-y: scroll;
+	background: url(https://wallpaperaccess.com/full/539321.jpg) top center / cover no-repeat;
+	border-radius: 5px;
+}
+p{
+	color: black;
+	font-size: 20px;
+}
+p:hover{
+	opacity: 0.5;
+}
+.footer{
+	float: left;
+	margin-top: 20px;
+	width: 100%;
+	height: 150px;
+	background: linear-gradient(to top, #E5ACB6, #427bf5);
+	border-top-style: double;
+	border-width: 6px;
+	border-color: white;
+}
+.dugaar{
+	float: left;
+	width: 280px;
+	height: 70px;
+	padding: 10px;
+}
+i:hover{
+	color: #6F8B8A;
+}
+.social{
+	width: 300px;
+	height: 40px;
+}
+.bicwer{
+	float: left;
+	width: 150px;
+	height: 50px;
+	margin-left: 300px;
+	font-size: 20px;
+	color: white;
+}
+.tamga{
+	margin-top: 90px;
+	width: 100%;
+	height: 20px;
+	font-size: 15px;
+	text-align: right;
+}

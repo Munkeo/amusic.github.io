@@ -1,0 +1,214 @@
+html, body{
+	margin: 0px;
+	background: linear-gradient(to right, #E5ACB6, #34a1eb);
+}
+.header{
+	position: absolute;
+	width: 100%;
+	height: 80px;
+	background: rgba(255,204,213,.999);
+}
+.logo{
+	position: absolute;
+	width: 100px;
+	height: 80px;
+	margin-left: 50px;
+}
+.logo:hover{
+	opacity: 0.5;
+}
+.movies{
+	float: left;
+}
+b{
+	float: left;
+	margin-left: 20px;
+	padding-top: 15px;
+	color: black;
+}
+b:hover{
+	color: white;
+	border-bottom-style: solid;
+	border-bottom-color: white;
+}
+.home{
+	padding-left: 190px;
+	padding-top: 15px;
+}
+.big{
+	width: 100%;
+	height: 700px;
+	margin-top: 5.7%;
+	background-image: url("https://images.unsplash.com/photo-1484755560615-a4c64e778a6c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1580&q=80");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+img{
+	width: 100px;
+	height: auto;
+}
+.amusic{
+	width: 360px;
+	height: 100px;
+	margin-right: 200px;
+	margin-top: 280px;
+	float: right;
+	border-style: double;
+	padding: 8px;
+}
+h1{
+	margin: 0;
+	float: left;
+	font-style: italic;
+	font-size: 75px;
+	color: white;
+	position: relative;
+	animation-name: ex;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+@keyframes ex{
+	0%		{left:0px;}
+	25%		{color: black;}
+	50%		{color: white;}
+	75%		{color: black;}
+	100%	{color: white;}
+}
+h5{
+	margin: 0;
+	font-size: 15px;
+	font-variant: small-caps;
+	color: black;
+	position: relative;
+	animation-name: ex1;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+}
+@keyframes ex1{
+	0%		{left:0px;}
+	25%		{left:40px; color: white;}
+	50%		{left:80px; color: black;}
+	75%		{left:120px; color: white;}
+	100%	{left:160px; color: black;}
+}
+p.one{
+	border-left: 5px solid red;
+	font-size: 30px;
+	margin-left: 50px;
+}
+.guitar{
+	width: 350px;
+	height: 300px;
+	float: left;
+	margin-left: 70px;
+	font-size: 20px;
+}
+.guitar:hover{
+	opacity: 0.5;
+}
+.piano{
+	width: 350px;
+	height: 300px;
+	float: left;
+	margin-left: 70px;
+	font-size: 20px;
+}
+.piano:hover{
+	opacity: 0.5;
+}
+.violin{
+	width: 350px;
+	height: 300px;
+	float: left;
+	margin-left: 70px;
+	font-size: 20px;
+}
+.violin:hover{
+	opacity: 0.5;
+}
+.fender{
+	padding-top: 20px;
+	float: left;
+	width: 350px;
+	height: 450px;
+	font-size: 20px;
+}
+.fender:hover{
+	opacity: 0.5;
+}
+.jimi{
+	padding-top: 20px;
+	margin-left: 10px;
+	float: left;
+	width: 270px;
+	height: 475px;
+	font-size: 20px;
+}
+.jimi:hover{
+	opacity: 0.5;
+}
+.bobs{
+	padding-top: 20px;
+	float: left;
+	margin-left: 10px;
+	width: 310px;
+	height: 450px;
+	font-size: 20px;
+}
+.bobs:hover{
+	opacity: 0.5;
+}
+.guitars{
+	width: 950px;
+	height: 590px;
+	float: left;
+	margin-left: 50px;
+	padding-left: 20px;
+	font-size: 25px;
+	font-family: courier;
+	color: black;
+}
+.footer{
+	float: left;
+	margin-top: 20px;
+	width: 100%;
+	height: 150px;
+	background: linear-gradient(to top, #E5ACB6, #427bf5);
+	border-top-style: double;
+	border-width: 6px;
+	border-color: white;
+}
+.dugaar{
+	float: left;
+	width: 280px;
+	height: 70px;
+	padding: 10px;
+}
+i:hover{
+	color: #6F8B8A;
+}
+.social{
+	width: 300px;
+	height: 40px;
+}
+.bicwer{
+	float: left;
+	width: 150px;
+	height: 50px;
+	margin-left: 300px;
+	font-size: 20px;
+	color: white;
+}
+.tamga{
+	margin-top: 90px;
+	width: 100%;
+	height: 20px;
+	font-size: 15px;
+	text-align: right;
+}
+@media screen and (max-width: 650px) {
+  .main{
+    width: 100%;
+    display: block;
+  }
+}
